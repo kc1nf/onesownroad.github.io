@@ -1,0 +1,52 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*margin-top: 20vh ;*/
+    background: linear-gradient(#D5A3FF 0%,
+    #77A5F8 100%);
+
+}
+
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.wrapper{
+    background: #fff;
+    width: 900;
+    height: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.members{
+    display: inline-flex;
+}
+.team-mem{
+    margin: 8px;
+   
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+}
+h4,p{
+    text-align: center;
+    font-size: 15px;
+    margin: 7px;
+}
