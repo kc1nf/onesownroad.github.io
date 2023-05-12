@@ -26,8 +26,8 @@ hr{
 }
 .wrapper{
     background: #fff;
-    width: 900;
-    height: 300px;
+    width: 300vh;
+    height: 42vh;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
